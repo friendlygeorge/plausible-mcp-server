@@ -1,7 +1,7 @@
 {
   "name": "plausible-mcp-server",
   "version": "1.0.0",
-  "description": "MCP server for Plausible Analytics — privacy-friendly web analytics. 12 tools for traffic, conversions, sources, and device breakdowns.",
+  "description": "MCP server for Plausible Analytics \u2014 privacy-friendly web analytics. 12 tools for traffic, conversions, sources, and device breakdowns.",
   "main": "dist/index.js",
   "bin": {
     "plausible-mcp-server": "dist/index.js"
@@ -28,5 +28,17 @@
   "devDependencies": {
     "@types/node": "^25.9.2",
     "typescript": "^6.0.3"
+  },
+  "mcpName": "io.github.friendlygeorge/plausible-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/friendlygeorge/plausible-mcp-server.git"
+  },
+  "homepage": "https://github.com/friendlygeorge/plausible-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/friendlygeorge/plausible-mcp-server/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
